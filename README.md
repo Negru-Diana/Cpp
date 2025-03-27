@@ -48,7 +48,7 @@ The application follows a multi-layered architecture, ensuring clarity, scalabil
 -  📊 **High Code Coverage** – The test suite covers all critical functionalities.
 
 ## 🗂️ Data Persistence
-📁 **File-Based Storage** – The system maintains records in text files for straightforward data management and persistence.
+**File-Based Storage** – The system maintains records in text files for straightforward data management and persistence.
 
 ## 🌟 Key Highlights
 -  **Modular Design** – The multi-layered architecture ensures a clear separation of concerns.
