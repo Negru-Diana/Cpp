@@ -29,7 +29,7 @@ Contains the business logic of the application:
 
       -  Manages movie operations (add, update, delete, search, sort, filter).
 
-      -  Handles rental cart functionality, allowing users to add movies, view cart contents, and export to HTML.
+      -  Handles rental cart functionality, allowing users to add/remove movies, view cart contents, and export to HTML.
 
 -  🖥️ **User Interface Layer**
 Provides an interactive GUI using Qt Framework:
