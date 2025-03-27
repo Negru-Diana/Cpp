@@ -52,17 +52,26 @@ The system uses file-based storage for reliable data management:
 
 ## ✅ Test Coverage & Reliability
 -  📊 **Extensive Unit Testing** – The project includes rigorous unit tests covering all critical functionalities.
+  
 -  🧪 **High Code Coverage** – A significant portion of the codebase is tested to ensure correctness and stability.
+  
 -  🔄 **Regression Testing** – Changes are validated against existing tests to prevent unintended bugs.
 
 ## 🌟 Key Features
 -  ✅ **Comprehensive Movie Management** – Supports full lifecycle operations: add, remove, update, search, sort, and filter movies.
+  
 -  🔍 **Advanced Query Options** – Users can filter and sort movies based on title, genre, or release year.
+  
 -  🛒 **Rental Cart Management** – Easily add, view, and clear rental selections before checkout.
+  
 -  📤 **Export Rental Cart** – Save cart contents in an HTML file for reference or sharing.
+  
 -  ⏪ **Undo Functionality** – Allows users to revert actions, preventing accidental modifications.
+  
 -  🖥️ **Modern Graphical Interface** – Built with Qt for an intuitive and engaging user experience.
+  
 -  🛠️ **Optimized Performance** – Uses STL containers (std::vector, std::map) for efficient data handling.
+  
 -  🛡️ **Robust Error Handling** – Strong validation and exception handling ensure system stability.
 
 ## 🔬 Technical Highlights
