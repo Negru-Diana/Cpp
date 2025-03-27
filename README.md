@@ -51,14 +51,14 @@ The application follows a multi-layered architecture, ensuring clarity, scalabil
 📁 **File-Based Storage** – The system maintains records in text files for straightforward data management and persistence.
 
 ## 🌟 Key Highlights
--  Modular Design – The multi-layered architecture ensures a clear separation of concerns.
+-  **Modular Design** – The multi-layered architecture ensures a clear separation of concerns.
 
--  Robust Input Validation – Ensures data integrity by preventing invalid operations.
+-  **Robust Input Validation** – Ensures data integrity by preventing invalid operations.
 
--  Comprehensive Functionality – Full lifecycle management of movies, including sorting, filtering, and undo actions.
+-  **Comprehensive Functionality** – Full lifecycle management of movies, including sorting, filtering, and undo actions.
 
--  User-Friendly Interface – The Qt-based GUI enhances usability.
+-  **User-Friendly Interface** – The Qt-based GUI enhances usability.
 
--  Efficient Memory Management – Optimized for performance and stability.
+-  **Efficient Memory Management** – Optimized for performance and stability.
 
--  Robust Error Handling – Designed to handle errors gracefully and maintain system stability.
+-  **Robust Error Handling** – Designed to handle errors gracefully and maintain system stability.
