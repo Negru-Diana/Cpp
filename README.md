@@ -1,64 +1,84 @@
 # 🎬 Film Rental Management System
-The *"Inchiriere_filme"* is a robust application designed to streamline the management of movie rentals, offering a comprehensive set of features for efficient operation.
-
-## 🎯 Key Features
--  **Add Movies** ➕ – Easily incorporate new movies into the rental catalog by specifying details such as title, genre, release year, and lead actor.
-
--  **Remove Movies** ❌ – Efficiently delete movies from the catalog when they are no longer available for rent.
-
--  **Modify Movie Details** ✏️ – Update existing movie information to maintain an accurate and current catalog.
-
--  **Search Movies** 🔍 – Quickly locate movies in the catalog using various search criteria.
-
--  **Sort Movies** 📋 – Organize the movie list based on different attributes such as title, genre, or release year.
-
--  **Filter Movies** 🎭 – Apply filters to display movies based on specific criteria.
-
--  **Manage Rental Cart** 🛒 – Add movies to the rental cart, view the current selection, and clear it when needed.
-
--  **Export Rental Cart** 🛒 – Export the contents of the rental cart to an HTML file for easy sharing.
-
--  **Undo Actions** ⏪ – Implement undo functionality to revert recent changes and ensure data integrity.
+*"Inchiriere_filme"* is a C++ application designed to manage movie rentals efficiently. It provides a comprehensive set of features including movie management, rental cart operations, and undo functionality, ensuring a smooth rental experience.
 
 ## 🏗️ Architecture Overview
-The application follows a multi-layered architecture, ensuring clarity, scalability, and maintainability:
+The system follows a multi-layered architecture, ensuring scalability, maintainability, and modularity:
 
--  **Domain Layer** – Defines the core entities of the system, encapsulating attributes such as title, genre, release year, and lead actor.
+-  📦 Domain Layer
+Defines the core data entities of the system:
 
--  **Repository Layer** – Manages data storage and retrieval, implementing CRUD operations. It utilizes dynamic data structures for efficient data management.
+    -  Film – Represents a movie with attributes:
 
--  **Service Layer** – Contains the business logic, handling operations like adding, updating, deleting, sorting, filtering, and managing the rental cart.
+        -  titlu (title)
 
--  **User Interface Layer** – Provides an interactive graphical user interface built with the Qt framework.
+        -  gen (genre)
 
--  **Undo Mechanism** – Implements the Command Pattern to allow undo functionality for various operations.
+        - an_aparitie (release year)
 
-## 🖥️ Technologies Used
--  **C++** – Core programming language.
+        -  actor_principal (lead actor)
 
--  **Qt Framework** – For building a modern and interactive GUI.
+-  💾 Repository Layer
+Handles data storage and retrieval using dynamic data structures:
 
--  **Standard Template Library** – Used for efficient data management.
+Implements CRUD operations for managing movie records.
 
--  **Design Patterns** – Implements Observer and Command Patterns for system management.
+Uses std::vector for efficient storage and retrieval.
 
-## 🧪 Test Coverage
--  ✅ **Extensive Unit Testing** – Ensures reliability and correctness.
+⚙️ Service Layer
+Contains the business logic of the application:
 
--  📊 **High Code Coverage** – The test suite covers all critical functionalities.
+Manages movie operations (add, update, delete, search, sort, filter).
 
-## 🗂️ Data Persistence
-**File-Based Storage** – The system maintains records in text files for straightforward data management and persistence.
+Handles rental cart functionality, allowing users to add movies, view cart contents, and export to HTML.
 
-## 🌟 Key Highlights
--  **Modular Design** – The multi-layered architecture ensures a clear separation of concerns.
+🖥️ User Interface Layer
+Provides an interactive GUI using Qt Framework:
 
--  **Robust Input Validation** – Ensures data integrity by preventing invalid operations.
+User-friendly and visually appealing design.
 
--  **Comprehensive Functionality** – Full lifecycle management of movies, including sorting, filtering, and undo actions.
+Ensures intuitive navigation for managing the movie catalog.
 
--  **User-Friendly Interface** – The Qt-based GUI enhances usability.
+⏪ Undo Mechanism
+Implements the Command Pattern, allowing users to:
 
--  **Efficient Memory Management** – Optimized for performance and stability.
+Revert recent operations, ensuring data integrity.
 
--  **Robust Error Handling** – Designed to handle errors gracefully and maintain system stability.
+Undo changes for added flexibility in managing the rental catalog.
+
+🗂️ Data Persistence
+The system uses file-based storage for reliable data management:
+
+filme.txt – Stores movie records for long-term persistence.
+
+✅ Test Coverage & Reliability
+📊 Extensive Unit Testing – The project includes rigorous unit tests covering all critical functionalities.
+🧪 High Code Coverage – A significant portion of the codebase is tested to ensure correctness and stability.
+🔄 Regression Testing – Changes are validated against existing tests to prevent unintended bugs.
+
+🌟 Key Features
+✅ Comprehensive Movie Management – Supports full lifecycle operations: add, remove, update, search, sort, and filter movies.
+🔍 Advanced Query Options – Users can filter and sort movies based on title, genre, or release year.
+🛒 Rental Cart Management – Easily add, view, and clear rental selections before checkout.
+📤 Export Rental Cart – Save cart contents in an HTML file for reference or sharing.
+⏪ Undo Functionality – Allows users to revert actions, preventing accidental modifications.
+🖥️ Modern Graphical Interface – Built with Qt for an intuitive and engaging user experience.
+🛠️ Optimized Performance – Uses STL containers (std::vector, std::map) for efficient data handling.
+🛡️ Robust Error Handling – Strong validation and exception handling ensure system stability.
+
+🔬 Technical Highlights
+Language: C++
+
+Architecture: Multi-layered (Domain, Repository, Service, UI)
+
+GUI: Qt Framework for a modern, responsive interface
+
+Data Persistence: File-based system using text files (filme.txt)
+
+Design Patterns: Implements Observer Pattern (real-time updates) and Command Pattern (undo functionality).
+
+Memory Management: Efficient dynamic memory allocation, preventing leaks.
+
+Error Handling: Comprehensive exception handling for a smooth user experience.
+
+Test Coverage: High unit test coverage ensures the reliability and correctness of the system.
+
