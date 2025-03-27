@@ -63,6 +63,8 @@ The system uses file-based storage for reliable data management:
 -  🔍 **Advanced Query Options** – Users can filter and sort movies based on title, genre, or release year.
   
 -  🛒 **Rental Cart Management** – Easily add, view, and clear rental selections before checkout.
+
+-  🎲 **Random Movie Generation** – Users can generate a rental cart with a specified number of randomly selected movies from the existing list.
   
 -  📤 **Export Rental Cart** – Save cart contents in an HTML file for reference or sharing.
   
