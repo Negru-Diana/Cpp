@@ -4,7 +4,7 @@
 ## 🏗️ Architecture Overview
 The system follows a multi-layered architecture, ensuring scalability, maintainability, and modularity:
 
--  📦 **Domain Layer**
+-  📦 **Domain Layer** - 
 Defines the core data entities of the system:
 
     -  *Film* – Represents a movie with attributes:
@@ -17,28 +17,28 @@ Defines the core data entities of the system:
 
         -  actor_principal (lead actor)
 
--  💾 **Repository Layer**
+-  💾 **Repository Layer** - 
 Handles data storage and retrieval using dynamic data structures:
 
       -  Implements *CRUD operations* for managing movie records.
 
       -  Uses *std::vector* for efficient storage and retrieval.
 
--  ⚙️ **Service Layer**
+-  ⚙️ **Service Layer** - 
 Contains the business logic of the application:
 
       -  Manages movie operations (add, update, delete, search, sort, filter).
 
       -  Handles rental cart functionality, allowing users to add/remove movies, view cart contents, and export to HTML.
 
--  🖥️ **User Interface Layer**
+-  🖥️ **User Interface Layer** - 
 Provides an interactive GUI using Qt Framework:
 
       -  User-friendly and visually appealing design.
 
       -  Ensures intuitive navigation for managing the movie catalog.
 
--  ⏪ **Undo Mechanism**
+-  ⏪ **Undo Mechanism** - 
 Implements the *Command Pattern*, allowing users to:
 
       -  Revert recent operations, ensuring data integrity.
