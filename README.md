@@ -1,8 +1,8 @@
 # 🎬 Film Rental Management System
 The Film Rental Management System is a robust application designed to streamline the management of movie rentals, offering a comprehensive set of features for efficient operation.
 
-## 🧩 Key Features
--  Add Movies 🎬 – Easily incorporate new movies into the rental catalog by specifying details such as title, genre, release year, and lead actor.
+## 🎯 Key Features
+-  Add Movies ➕ – Easily incorporate new movies into the rental catalog by specifying details such as title, genre, release year, and lead actor.
 
 -  Remove Movies ❌ – Efficiently delete movies from the catalog when they are no longer available for rent.
 
@@ -10,13 +10,13 @@ The Film Rental Management System is a robust application designed to streamline
 
 -  Search Movies 🔍 – Quickly locate movies in the catalog using various search criteria.
 
--  Sort Movies 📊 – Organize the movie list based on different attributes such as title, genre, or release year.
+-  Sort Movies 📋 – Organize the movie list based on different attributes such as title, genre, or release year.
 
 -  Filter Movies 🎭 – Apply filters to display movies based on specific criteria.
 
 -  Manage Rental Cart 🛒 – Add movies to the rental cart, view the current selection, and clear it when needed.
 
--  Export Rental Cart 📤 – Export the contents of the rental cart to an HTML file for easy sharing.
+-  Export Rental Cart 🛒 – Export the contents of the rental cart to an HTML file for easy sharing.
 
 -  Undo Actions ⏪ – Implement undo functionality to revert recent changes and ensure data integrity.
 
