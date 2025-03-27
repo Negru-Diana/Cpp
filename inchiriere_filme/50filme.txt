@@ -1,0 +1,50 @@
+Uncharted;actiune;2022;Tom Holland
+John Wick;actiune;2014;Keanu Reeves
+In timp;actiune;2011;Justin Timberlake
+Diavolul se imbraca de la Prada;comedie;2006;Anne Hathaway
+Blonda de la drept;comedie;2001;Reese Witherspoon
+Oameni mari si fara minte;comedie;2010;Adam Sandler
+Crima din Orient Express;politist;2017;Kenneth Branagh
+Hunger Games;thriller;2012;Jennifer Lawrence
+Hunger Games 2;thriller;2012;Jennifer Lawrence
+Harry Potter 1;fantasy;2001;Daniel Radcliffe
+Good Luck Charlie;sitcom;2010;Mia Talerico
+Jessie;sitcom;2011;Debby Ryan
+The Suite Life;sitcom;2005;Cole Sprouse,Dylan Sprouse
+The Suite Life on Deck;sitcom;2008;Cole Sprouse,Dylan Sprouse
+Blestemul Perlei Negre;aventura;2003;Johnny Depp
+Cufarul omului mort;aventura;2006;Johnny Depp
+La capatul lumii;aventura;2007;Johnny Depp
+Pe ape si mai tulburi;aventura;2011;Johnny Depp
+Razbunarea lui Salazar;aventura;2017;Johnny Depp
+The Walking Dead;actiune;2010;Andrew Lincoln
+Cum sa scapi nepedepsit;drama;2014;Viola Davis
+Shadowhunters;actiune;2016;Katherine McNamara
+Arrow;actiune;2012;Stephen Amell
+Wednesday;horror;2022;Jenna Ortega
+Dead Boy Detectives;aventura;2024;George Rexstrew, Jayden Revri
+Titanic;romantic;1997;Leonardo DiCaprio
+Inception;sci-fi;2010;Leonardo DiCaprio
+The Dark Knight;actiune;2008;Christian Bale
+Interstellar;sci-fi;2014;Matthew McConaughey
+The Matrix;sci-fi;1999;Keanu Reeves
+Fight Club;drama;1999;Brad Pitt
+Pulp Fiction;crime;1994;John Travolta
+Forrest Gump;drama;1994;Tom Hanks
+The Shawshank Redemption;drama;1994;Tim Robbins
+The Godfather;crime;1972;Marlon Brando
+The Godfather Part II;crime;1974;Al Pacino
+The Lord of the Rings: The Fellowship of the Ring;fantasy;2001;Elijah Wood
+The Lord of the Rings: The Two Towers;fantasy;2002;Elijah Wood
+The Lord of the Rings: The Return of the King;fantasy;2003;Elijah Wood
+Gladiator;drama;2000;Russell Crowe
+Jurassic Park;adventure;1993;Sam Neill
+Star Wars: Episode IV - A New Hope;adventure;1977;Mark Hamill
+Star Wars: Episode V - The Empire Strikes Back;adventure;1980;Mark Hamill
+Star Wars: Episode VI - Return of the Jedi;adventure;1983;Mark Hamill
+The Lion King;animation;1994;Matthew Broderick
+Toy Story;animation;1995;Tom Hanks
+Finding Nemo;animation;2003;Albert Brooks
+Frozen;animation;2013;Idina Menzel
+Moana;animation;2016;Auli'i Cravalho
+Coco;animation;2017;Anthony Gonzalez

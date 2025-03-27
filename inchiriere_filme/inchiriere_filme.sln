@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inchiriere_filme", "inchiriere_filme.vcxproj", "{B243D70D-399B-4D7F-8E62-B91AB28B0D22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B243D70D-399B-4D7F-8E62-B91AB28B0D22}.Debug|x64.ActiveCfg = Debug|x64
+		{B243D70D-399B-4D7F-8E62-B91AB28B0D22}.Debug|x64.Build.0 = Debug|x64
+		{B243D70D-399B-4D7F-8E62-B91AB28B0D22}.Release|x64.ActiveCfg = Release|x64
+		{B243D70D-399B-4D7F-8E62-B91AB28B0D22}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D85465AE-2EF6-4A80-A9AA-7399B3827ADB}
+	EndGlobalSection
+EndGlobal
