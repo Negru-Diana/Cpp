@@ -20,30 +20,30 @@ Defines the core data entities of the system:
 -  💾 Repository Layer
 Handles data storage and retrieval using dynamic data structures:
 
-Implements CRUD operations for managing movie records.
+      -  Implements CRUD operations for managing movie records.
 
-Uses std::vector for efficient storage and retrieval.
+      -  Uses std::vector for efficient storage and retrieval.
 
-⚙️ Service Layer
+-  ⚙️ Service Layer
 Contains the business logic of the application:
 
-Manages movie operations (add, update, delete, search, sort, filter).
+      -  Manages movie operations (add, update, delete, search, sort, filter).
 
-Handles rental cart functionality, allowing users to add movies, view cart contents, and export to HTML.
+      -  Handles rental cart functionality, allowing users to add movies, view cart contents, and export to HTML.
 
-🖥️ User Interface Layer
+-  🖥️ User Interface Layer
 Provides an interactive GUI using Qt Framework:
 
-User-friendly and visually appealing design.
+      -  User-friendly and visually appealing design.
 
-Ensures intuitive navigation for managing the movie catalog.
+      -  Ensures intuitive navigation for managing the movie catalog.
 
-⏪ Undo Mechanism
+-  ⏪ Undo Mechanism
 Implements the Command Pattern, allowing users to:
 
-Revert recent operations, ensuring data integrity.
+      -  Revert recent operations, ensuring data integrity.
 
-Undo changes for added flexibility in managing the rental catalog.
+      -  Undo changes for added flexibility in managing the rental catalog.
 
 🗂️ Data Persistence
 The system uses file-based storage for reliable data management:
