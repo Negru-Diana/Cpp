@@ -68,7 +68,7 @@ The system uses file-based storage for reliable data management:
   
 -  🛒 **Rental Cart Management** – Easily add, view, and clear rental selections before checkout.
 
--  🖼️ **Interactive Read-Only Cart** – View movie selections in a read-only cart where movies are represented by a geometric figure.
+-  🖼️ **Read-Only Cart** – View movie selections in a read-only cart where movies are represented by a geometric figure.
 
 -  🎲 **Random Movie Generation** – Users can generate a rental cart with a specified number of randomly selected movies from the existing list.
   
