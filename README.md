@@ -30,6 +30,10 @@ Contains the business logic of the application:
       -  Manages movie operations (add, update, delete, search, sort, filter).
 
       -  Handles rental cart functionality, allowing users to add/remove movies, view cart contents, and export to HTML.
+ 
+      -  Provides the ability to generate a **read-only cart** that displays geometric figures for each movie, adding a fun and artistic element to the rental process.
+
+
 
 -  🖥️ **User Interface Layer** - 
 Provides an interactive GUI using Qt Framework:
@@ -63,6 +67,8 @@ The system uses file-based storage for reliable data management:
 -  🔍 **Advanced Query Options** – Users can filter and sort movies based on title, genre, or release year.
   
 -  🛒 **Rental Cart Management** – Easily add, view, and clear rental selections before checkout.
+
+-  🖼️ **Interactive Read-Only Cart** – View movie selections in a read-only cart where movies are represented by a geometric figure.
 
 -  🎲 **Random Movie Generation** – Users can generate a rental cart with a specified number of randomly selected movies from the existing list.
   
